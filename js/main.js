@@ -7,10 +7,6 @@ window.addEventListener("keydown", function(e) {
     key.classList.add('playing');
 });
 
-window.addEventListener("click",function(e){
-    const audio = document.querySelector('')
-})
-
 function removeTransition(e){
     if (e.propertyName !== 'transform') return;
     this.classList.remove('playing')
